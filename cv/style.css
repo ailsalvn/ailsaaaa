@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: white;
+  font-size: 14px;
+  line-height: 22px;
+  color: black;
+}
+
+/* left design*/
+.container {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.container .box-left {
+  width: 280px;
+  height: 950px;
+  background-color: #a0c4e2;
+}
+.contents {
+  padding-right: 30;
+}
+.contents .contact {
+  background-color: darksalmon;
+  border: 2px solid;
+  padding: 4px;
+  margin: 2px 14px;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  border-radius: 130px;
+}
+.contents2 .sskill {
+  background-color: darksalmon;
+  border: 2px solid;
+  padding: 4px;
+  margin-top: 40px;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 5px;
+  border-radius: 130px;
+  text-align: center;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.language {
+  background-color: darksalmon;
+  border: 2px solid;
+  border-radius: 130px;
+  padding: 4px;
+  margin-top: 25px;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* right design*/
+.container .box-right {
+  width: 520px;
+  background-color: #c6dbf0;
+  padding: 25px;
+}
