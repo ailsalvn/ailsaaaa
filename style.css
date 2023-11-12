@@ -68,6 +68,7 @@ body {
 /* right design*/
 .container .box-right {
   width: 520px;
+  height: 950px;
   background-color: #c6dbf0;
   padding: 25px;
 }
